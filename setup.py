@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='rwas',
-    version='0.0.1',
+    version='0.0.2',
     description='pip install rwas',
     license='MIT',
     packages=['rwas'],
