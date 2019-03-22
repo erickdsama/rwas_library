@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     description='pip install rwas',
     license='MIT',
-    packages=['hellostackoverflow'],
+    packages=['rwas'],
     author='Erick Samaniego',
     author_email='erickdsama@gmail.com',
     keywords=['rwas', 'whatsapp', 'bot', 'rest'],

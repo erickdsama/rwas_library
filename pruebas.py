@@ -1,8 +1,6 @@
 # coding=utf-8
-
-from in_service import InService
-from out_service import OutService
-
+from rwas.in_service import InService
+from rwas.out_service import OutService
 
 class Entrada(InService):
 

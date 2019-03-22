@@ -3,7 +3,7 @@ import json
 import time
 
 from subprocess import check_output, CalledProcessError
-from columns import COLUMN
+from rwas.columns import COLUMN
 
 
 class WHO:
