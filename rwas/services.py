@@ -38,6 +38,7 @@ class InService(Thread):
 
 
 class OutService(Thread):
+    _co = None
 
     def __init__(self):
         self.rwas = RWAS()

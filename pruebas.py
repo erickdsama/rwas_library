@@ -1,23 +1,15 @@
 # coding=utf-8
 from rwas.services import InService, OutService
 
-class Entrada(InService):
+
+class PruebaEntrada(InService):
 
     def in_meesages(self):
         messages = [
-            # {
-            #     "message": "hola como estas ?",
-            #     "number": "5216562724890@s.whatsapp.net"
-            # },
-            # {
-            #     "message": "bien y tú ?",
-            #     "number": "5216562724890@s.whatsapp.net"
-            # },
-            # {
-            #     "message": "bien también?",
-            #     "number": "5216562724890@s.whatsapp.net"
-            # }
-
+            {
+                "message": "hola proyecto",
+                "number": "5216562724890@s.whatsapp.net"
+            }
         ]
         return messages
 
@@ -25,7 +17,13 @@ class Entrada(InService):
         return "mensaje enviado desde RWAS: {}".format(message)
 
 
+in_service = PruebaEntrada()
+in_service.run()
+
+
 class Salida(OutService):
+
+    _co = "lklklk"
 
     def out_request(self, message):
         print("como que voy a un servicio con mi mensaje", message)
@@ -39,5 +37,6 @@ class Salida(OutService):
 
 # inse = Entrada()
 # inse.run()
-sale = Salida()
-sale.run()
+#print(sale._co)
+
+
